@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Example Outdoor Banner",
+  "customerName": "Example Customer",
+  "productType": "OUTDOOR_BANNER",
+  "finalSize": {
+    "width": 30,
+    "height": 2,
+    "unit": "m"
+  },
+  "printerProfileKey": "EXAMPLE_LARGE_FORMAT",
+  "copy": {
+    "headline": "Example headline",
+    "body": "Example body copy"
+  },
+  "assets": [
+    {"role": "logo", "assetId": "asset-logo-example"},
+    {"role": "hero-photo", "assetId": "asset-photo-example"}
+  ],
+  "styleDirection": "Clean, high visibility, suitable for long-distance viewing",
+  "requiredOutputs": [],
+  "notes": "Example only; not a production order."
+}
