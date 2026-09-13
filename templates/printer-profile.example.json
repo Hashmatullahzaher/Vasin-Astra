@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "stableKey": "EXAMPLE_LARGE_FORMAT",
+  "name": "Example Large Format Profile - NOT PRODUCTION",
+  "version": 1,
+  "productTypes": ["OUTDOOR_BANNER"],
+  "printerOrRipName": "EXAMPLE_ONLY",
+  "substrate": "EXAMPLE_ONLY",
+  "allowedScaleRatios": ["1:1", "1:5", "1:10"],
+  "preferredScaleRatio": "1:10",
+  "minimumEffectivePpi": 60,
+  "recommendedEffectivePpi": 100,
+  "color": {
+    "requiredSpace": "CONFIGURE",
+    "iccProfile": null
+  },
+  "bleed": {
+    "unit": "mm",
+    "top": null,
+    "right": null,
+    "bottom": null,
+    "left": null
+  },
+  "safeMargin": {
+    "unit": "mm",
+    "top": null,
+    "right": null,
+    "bottom": null,
+    "left": null
+  },
+  "requiredOutputFormats": [],
+  "allowedOutputFormats": ["PDF", "AI", "TIFF", "JPEG"],
+  "fontPolicy": "CONFIGURE",
+  "rasterOverridePolicy": "ADMIN_REASON_REQUIRED",
+  "notes": "Development fixture only. Do not use these values for Vasin production."
+}
